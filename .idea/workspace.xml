@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2cddc4f-b4a4-45f2-b99a-be86f21d1408" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/day04/18-bdo标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/042-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/043-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/044-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/045-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/046-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/047-键值判断.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/048-启动拖动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/049-拖动事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/050-作业讲解.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/051-单选按钮.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/052-文本输入框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/053-google.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/054-作业讲解效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/055-作业讲解效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/056-多行文本框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/057-表单分组.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/058-作业讲解.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/059-京东会员.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/anki/060-下拉列表.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/data structure/01-loop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/data structure/02-if.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/data structure/03-if-else.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/practice/data structure/05-path.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/class/JavaScript忍者秘籍/01-断言.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/class/JavaScript忍者秘籍/02-性能分析.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/class/JavaScript忍者秘籍/03-日志记录.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/class/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/.idea/workspace.xml" afterPath="$PROJECT_DIR$/class/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/001-细线课表0.html" afterPath="$PROJECT_DIR$/class/practice/anki/001-细线课表0.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/002-细线表格.html" afterPath="$PROJECT_DIR$/class/practice/anki/002-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/003-细线表格.html" afterPath="$PROJECT_DIR$/class/practice/anki/003-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/004-跑马灯.html" afterPath="$PROJECT_DIR$/class/practice/anki/004-跑马灯.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/005-细线表格.html" afterPath="$PROJECT_DIR$/class/practice/anki/005-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/006-H5控件0.html" afterPath="$PROJECT_DIR$/class/practice/anki/006-H5控件0.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/007-H5控件.html" afterPath="$PROJECT_DIR$/class/practice/anki/007-H5控件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/008-文本框.html" afterPath="$PROJECT_DIR$/class/practice/anki/008-文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/009-H5控件.html" afterPath="$PROJECT_DIR$/class/practice/anki/009-H5控件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/010-表单分组.html" afterPath="$PROJECT_DIR$/class/practice/anki/010-表单分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/011-表单.html" afterPath="$PROJECT_DIR$/class/practice/anki/011-表单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/012-锚点.html" afterPath="$PROJECT_DIR$/class/practice/anki/012-锚点.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/013-embed.html" afterPath="$PROJECT_DIR$/class/practice/anki/013-embed.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/014-文本输入框.html" afterPath="$PROJECT_DIR$/class/practice/anki/014-文本输入框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/015-embed标签.html" afterPath="$PROJECT_DIR$/class/practice/anki/015-embed标签.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/016-下拉列表.html" afterPath="$PROJECT_DIR$/class/practice/anki/016-下拉列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/017-下拉列表.html" afterPath="$PROJECT_DIR$/class/practice/anki/017-下拉列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/018-文件下载.html" afterPath="$PROJECT_DIR$/class/practice/anki/018-文件下载.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/019-下拉列表多选.html" afterPath="$PROJECT_DIR$/class/practice/anki/019-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/020-下拉列表分组.html" afterPath="$PROJECT_DIR$/class/practice/anki/020-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/021-多选框.html" afterPath="$PROJECT_DIR$/class/practice/anki/021-多选框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/022-下拉列表分组.html" afterPath="$PROJECT_DIR$/class/practice/anki/022-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/023-多行文本框.html" afterPath="$PROJECT_DIR$/class/practice/anki/023-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/024-下拉列表多选.html" afterPath="$PROJECT_DIR$/class/practice/anki/024-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/025-下拉列表分组.html" afterPath="$PROJECT_DIR$/class/practice/anki/025-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/026-多行文本框.html" afterPath="$PROJECT_DIR$/class/practice/anki/026-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/027-下拉列表多选.html" afterPath="$PROJECT_DIR$/class/practice/anki/027-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/028-多选框.html" afterPath="$PROJECT_DIR$/class/practice/anki/028-多选框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/029-多行文本框.html" afterPath="$PROJECT_DIR$/class/practice/anki/029-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/030-文件上传按钮.html" afterPath="$PROJECT_DIR$/class/practice/anki/030-文件上传按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/031-下拉列表分组.html" afterPath="$PROJECT_DIR$/class/practice/anki/031-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/032-下拉列表多选.html" afterPath="$PROJECT_DIR$/class/practice/anki/032-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/033-京东会员.html" afterPath="$PROJECT_DIR$/class/practice/anki/033-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/034-京东会员.html" afterPath="$PROJECT_DIR$/class/practice/anki/034-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/035-京东会员.html" afterPath="$PROJECT_DIR$/class/practice/anki/035-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/036-注册.html" afterPath="$PROJECT_DIR$/class/practice/anki/036-注册.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/037-google案例.html" afterPath="$PROJECT_DIR$/class/practice/anki/037-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/038-注册.html" afterPath="$PROJECT_DIR$/class/practice/anki/038-注册.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/039-google案例.html" afterPath="$PROJECT_DIR$/class/practice/anki/039-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/040-google案例.html" afterPath="$PROJECT_DIR$/class/practice/anki/040-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/041-单选按钮.html" afterPath="$PROJECT_DIR$/class/practice/anki/041-单选按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/resource/1.mp3" afterPath="$PROJECT_DIR$/class/practice/anki/resource/1.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/resource/reg.jpg" afterPath="$PROJECT_DIR$/class/practice/anki/resource/reg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/resource/yzm.jpg" afterPath="$PROJECT_DIR$/class/practice/anki/resource/yzm.jpg" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="036-注册.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/anki/036-注册.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="059-京东会员.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/anki/059-京东会员.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#378#384#0" expanded="true" />
+                <element signature="e#437#443#0" expanded="true" />
+                <element signature="e#443#449#0" expanded="true" />
+                <element signature="e#449#455#0" expanded="true" />
+                <element signature="e#545#551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="060-下拉列表.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/anki/060-下拉列表.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="043-键值判断.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/anki/043-键值判断.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-loop.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/data structure/01-loop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02-if.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-if-else.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/data structure/03-if-else.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-readline.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/practice/data structure/04-readline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-path.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/data structure/05-path.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="034-京东会员.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/practice/anki/034-京东会员.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/class/practice/059-京东会员.html" />
+        <option value="$PROJECT_DIR$/class/practice/060-下拉列表.html" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/01-loop.js" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/02-if.html" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/02-if.js" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/03-if-else.js" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/04-switch.js" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/05-path.js" />
+        <option value="$PROJECT_DIR$/class/practice/data structure/04-readline.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1298" />
+    <option name="height" value="928" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\homework\class\practice\anki" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2cddc4f-b4a4-45f2-b99a-be86f21d1408" name="Default" comment="" />
+      <created>1500279809709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500279809709</updated>
+      <workItem from="1500279813572" duration="4825000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4825000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1298" height="928" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/036-注册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/034-京东会员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/059-京东会员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#378#384#0" expanded="true" />
+            <element signature="e#437#443#0" expanded="true" />
+            <element signature="e#443#449#0" expanded="true" />
+            <element signature="e#449#455#0" expanded="true" />
+            <element signature="e#545#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/060-下拉列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/043-键值判断.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/01-loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/03-if-else.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/05-path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/practice/data structure/04-readline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

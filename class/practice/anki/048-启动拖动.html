@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>启动拖动</title>
+    <style type="text/css">
+        #source {
+            width: 80px;
+            height: 80px;
+            border: 1px solid orange;
+            background-color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div id="source" draggable="true">
+        疯狂软件教育
+    </div>
+    <script type="text/javascript">
+        var source = document.getElementById("source");
+        source.ondragstart = function(event) {
+            // 让拖动操作携带数据
+            event.dataTransfer.setData("text/plain", "www.fkjava.org");
+        }
+    </script>
+</body>
+</html>
