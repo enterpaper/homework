@@ -1,9 +1,6 @@
 /**
  * Created by Adminstrator on 2017/7/17.
  */
-/**
- * Created by Administrator on 2015/9/10.
- */
 // 引入readline模块
 var readline = require('readline');
 
