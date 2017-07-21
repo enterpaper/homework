@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册信息</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>账户信息</legend>
+            <font color="#FF0000">*</font>用户名：<input type="text" name="username"><br /><br />
+            <font color="#FF0000">*</font>密&nbsp;&nbsp;&nbsp;码：<input type="password" name="pwd"><br /><br />
+            &nbsp;性&nbsp;&nbsp;&nbsp;别：<input type="radio" name="gender" value="male" checked="checked">男
+            <input type="radio" name="gender" value="female">女
+        </fieldset>
+        <fieldset>
+            <legend>公司名称</legend>
+            公司所在地址：
+            <select name="province">
+                <option selected="selected">---请选择---</option>
+                <opiton>北京</opiton>
+                <option>上海</option>
+                <option>河南</option>
+            </select>
+            <select name="city">
+                <option selected="selected">---请选择---</option>
+                <optgroup label="北京">
+                    <opiton>北京</opiton>
+                    <option>上海</option>
+                    <option>河南</option>
+                </optgroup>
+                <optgroup label="北京">
+                    <opiton>北京</opiton>
+                    <option>上海</option>
+                    <option>河南</option>
+                </optgroup>
+            </select>
+            <select name="town" multiple="multiple">
+                <option selected="selected">---请选择---</option>
+                <opiton>北京</opiton>
+                <option>上海</option>
+                <option>河南</option>
+            </select>
+            <br /><br />
+            公司产品：
+            <input type="checkbox" name="product" value="IT" checked="checked">IT
+            <input type="checkbox" name="product" value="household" checked="checked">家电
+            <input type="checkbox" name="product" value="communication" checked="checked">通讯设备
+            <br /><br />
+            公司介绍：
+            <textarea cols="30" rows="3" name="description"></textarea>
+            <br /><br />
+            营业执照上传：
+            <input type="file" name="licensse">
+            <br /><br />
+            <input type="image" src="resource/reg.jpg"> 
+        </fieldset>
+    </form>
+</body>
+</html>

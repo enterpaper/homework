@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var proto = {
+            sentence : 4,
+            probation: 2
+        };
+
+        var Prisoner = function(name, id) {
+            this.name = name;
+            this.id = id;
+        };
+
+        Prisoner.prototype = proto;
+
+        var firstPrisoner = new Prisoner('Joe', '12A');
+        var secondPrisoner = new Prisoner('Sam', '2BC');
+    </script>
+</body>
+</html>

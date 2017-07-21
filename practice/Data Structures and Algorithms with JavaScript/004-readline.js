@@ -11,14 +11,14 @@ var  rl = readline.createInterface({
 });
 
 // question方法
-rl.question("你叫什么？",function(answer){
+readline.question("你叫什么？",function(answer){
     console.log("名字是："+answer);
     // 不加close，则不会结束
-    rl.close();
+    readline.close();
 });
 
 // close事件监听
-rl.on("close", function(){
+readline.on("close", function(){
     // 结束程序
     process.exit(0);
 });

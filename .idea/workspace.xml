@@ -2,12 +2,193 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2cddc4f-b4a4-45f2-b99a-be86f21d1408" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/class/practice/data structure/01-loop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/class/practice/data structure/02-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/class/practice/data structure/03-if-else.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/class/practice/data structure/04-readline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/class/practice/data structure/05-path.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/day01/13-base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/AngularJS/01-ngSelected.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/AngularJS/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/062-下拉列表分组.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/063-bdo标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/064-bdo标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/065-定义锚点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/066-重置按钮.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/067-固定精度.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/068-设置关键字.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/069-固定精度.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/070-bdo标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/071-多行文本框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/072-有序列表.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/073-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/074-固定精度.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/075-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/076-设置字符编码.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/077-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/078-标签选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/079-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/080-设置字符集.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/081-文本输入框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/082-京东会员.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/083-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/084-跑马灯.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/085-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/086-定义锚点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/087-设置背景.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/088-阶乘（普通）.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/089-打印月份.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/090-阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/091-回调阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/092-用户信息.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/093-回调函数阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/094-单选框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/095-回调函数阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/096-增值.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/097-普通阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/098-Checking对象.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/099-回调阶乘.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/124-作业讲解.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Anki/154-作业讲解.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/CSS The Definitive Guide/01-head01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/CSS The Definitive Guide/02-head02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/CSS The Definitive Guide/03-head03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/CSS The Definitive Guide/04-head04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/CSS The Definitive Guide/05-usecss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/017-arry01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/018-arry02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/019-arry03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/020-objectArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/021-isArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/022-arrayWrite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/023-arraySum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/024-arraySumFor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/025-arraySplit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/026-arrayCopy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/027-arrayCopyDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/028-arrayIndexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/029-arrayLastIndexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/030-arrayString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/031-arrayConcat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/032-arraySplice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/033-arrayPush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/034-arrayAddByLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/035-arrayAdd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/036-arrayUnshift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/037-arrayPop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/038-arrayDelete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/039-arrayShift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/040-arrayShiftReturn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/041-arraySplice01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/042-arraySplice02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/043-arrayReverse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/044-arraySort01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/045-arraySort02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/046-arraySort03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/047-arrayForEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/048-arrayEvery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/049-arraySome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/050-arrayReduce01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/051-arrayReduce02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/052-reduceRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/053-arrayMap01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/054-arrayMap02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/055-arrayFilter01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/056-arrayFilter02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/057-arrayFilter03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/058-arrayMultiple01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/059-arrayMultiple02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/060-arrayMultipleRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/061-arrayMultipleCol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/062-arrayRagged.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/063-arrayObject01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/064-arrayObject02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/01-spa.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/02-spaSchedule01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/03-spaSchedule02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/04-spaSchedule03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/05-scope.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/06-let.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/07-作用域链.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/08-原型.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/09-使用Object.create创建对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/Single Page Application/10-使用Object.create()和工厂函数.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/01-loop.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/001-loop.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/02-if.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/002-if.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/03-if-else.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/003-ifElse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/04-readline.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/004-readline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/05-path.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/005-path.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/06-switch.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/006-switch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/07-while.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/007-while.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/08-for.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/008-for.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/09-for array.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/009-forArray.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/10-factorial.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/010-factorial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/11-curve.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/011-curve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/12-showScope.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/012-showScope.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/13-showScope02.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/013-showScope02.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/14-showScope03.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/014-showScope03.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/15-factorial02.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/015-factorial02.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/16-checkingbalance.js" afterPath="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/016-checkingBalance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/001-细线课表0.html" afterPath="$PROJECT_DIR$/practice/Anki/001-细线课表0.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/002-细线表格.html" afterPath="$PROJECT_DIR$/practice/Anki/002-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/003-细线表格.html" afterPath="$PROJECT_DIR$/practice/Anki/003-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/004-跑马灯.html" afterPath="$PROJECT_DIR$/practice/Anki/004-跑马灯.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/005-细线表格.html" afterPath="$PROJECT_DIR$/practice/Anki/005-细线表格.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/006-H5控件0.html" afterPath="$PROJECT_DIR$/practice/Anki/006-H5控件0.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/007-H5控件.html" afterPath="$PROJECT_DIR$/practice/Anki/007-H5控件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/008-文本框.html" afterPath="$PROJECT_DIR$/practice/Anki/008-文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/009-H5控件.html" afterPath="$PROJECT_DIR$/practice/Anki/009-H5控件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/010-表单分组.html" afterPath="$PROJECT_DIR$/practice/Anki/010-表单分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/011-表单.html" afterPath="$PROJECT_DIR$/practice/Anki/011-表单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/012-锚点.html" afterPath="$PROJECT_DIR$/practice/Anki/012-锚点.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/013-embed.html" afterPath="$PROJECT_DIR$/practice/Anki/013-embed.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/014-文本输入框.html" afterPath="$PROJECT_DIR$/practice/Anki/014-文本输入框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/015-embed标签.html" afterPath="$PROJECT_DIR$/practice/Anki/015-embed标签.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/016-下拉列表.html" afterPath="$PROJECT_DIR$/practice/Anki/016-下拉列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/017-下拉列表.html" afterPath="$PROJECT_DIR$/practice/Anki/017-下拉列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/018-文件下载.html" afterPath="$PROJECT_DIR$/practice/Anki/018-文件下载.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/019-下拉列表多选.html" afterPath="$PROJECT_DIR$/practice/Anki/019-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/020-下拉列表分组.html" afterPath="$PROJECT_DIR$/practice/Anki/020-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/021-多选框.html" afterPath="$PROJECT_DIR$/practice/Anki/021-多选框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/022-下拉列表分组.html" afterPath="$PROJECT_DIR$/practice/Anki/022-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/023-多行文本框.html" afterPath="$PROJECT_DIR$/practice/Anki/023-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/024-下拉列表多选.html" afterPath="$PROJECT_DIR$/practice/Anki/024-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/025-下拉列表分组.html" afterPath="$PROJECT_DIR$/practice/Anki/025-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/026-多行文本框.html" afterPath="$PROJECT_DIR$/practice/Anki/026-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/027-下拉列表多选.html" afterPath="$PROJECT_DIR$/practice/Anki/027-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/028-多选框.html" afterPath="$PROJECT_DIR$/practice/Anki/028-多选框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/029-多行文本框.html" afterPath="$PROJECT_DIR$/practice/Anki/029-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/030-文件上传按钮.html" afterPath="$PROJECT_DIR$/practice/Anki/030-文件上传按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/031-下拉列表分组.html" afterPath="$PROJECT_DIR$/practice/Anki/031-下拉列表分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/032-下拉列表多选.html" afterPath="$PROJECT_DIR$/practice/Anki/032-下拉列表多选.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/033-京东会员.html" afterPath="$PROJECT_DIR$/practice/Anki/033-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/034-京东会员.html" afterPath="$PROJECT_DIR$/practice/Anki/034-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/035-京东会员.html" afterPath="$PROJECT_DIR$/practice/Anki/035-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/036-注册.html" afterPath="$PROJECT_DIR$/practice/Anki/036-注册.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/037-google案例.html" afterPath="$PROJECT_DIR$/practice/Anki/037-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/038-注册.html" afterPath="$PROJECT_DIR$/practice/Anki/038-注册.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/039-google案例.html" afterPath="$PROJECT_DIR$/practice/Anki/039-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/040-google案例.html" afterPath="$PROJECT_DIR$/practice/Anki/040-google案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/041-单选按钮.html" afterPath="$PROJECT_DIR$/practice/Anki/041-单选按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/042-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/042-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/043-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/043-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/044-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/044-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/045-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/045-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/046-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/046-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/047-键值判断.html" afterPath="$PROJECT_DIR$/practice/Anki/047-键值判断.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/048-启动拖动.html" afterPath="$PROJECT_DIR$/practice/Anki/048-启动拖动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/049-拖动事件.html" afterPath="$PROJECT_DIR$/practice/Anki/049-拖动事件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/050-作业讲解.html" afterPath="$PROJECT_DIR$/practice/Anki/050-作业讲解.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/051-单选按钮.html" afterPath="$PROJECT_DIR$/practice/Anki/051-单选按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/052-文本输入框.html" afterPath="$PROJECT_DIR$/practice/Anki/052-文本输入框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/053-google.html" afterPath="$PROJECT_DIR$/practice/Anki/053-google.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/054-作业讲解效果.html" afterPath="$PROJECT_DIR$/practice/Anki/054-作业讲解效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/055-作业讲解效果.html" afterPath="$PROJECT_DIR$/practice/Anki/055-作业讲解效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/056-多行文本框.html" afterPath="$PROJECT_DIR$/practice/Anki/056-多行文本框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/057-表单分组.html" afterPath="$PROJECT_DIR$/practice/Anki/057-表单分组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/058-作业讲解.html" afterPath="$PROJECT_DIR$/practice/Anki/058-作业讲解.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/059-京东会员.html" afterPath="$PROJECT_DIR$/practice/Anki/059-京东会员.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/060-下拉列表.html" afterPath="$PROJECT_DIR$/practice/Anki/060-下拉列表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/061-获取键值.html" afterPath="$PROJECT_DIR$/practice/Anki/061-获取键值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/resource/1.mp3" afterPath="$PROJECT_DIR$/practice/Anki/resource/1.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/resource/reg.jpg" afterPath="$PROJECT_DIR$/practice/Anki/resource/reg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/practice/anki/resource/yzm.jpg" afterPath="$PROJECT_DIR$/practice/Anki/resource/yzm.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +203,101 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="061-获取键值.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/practice/anki/061-获取键值.html">
+      <file leaf-file-name="01-spa.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/01-spa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="653">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-spaSchedule03.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/04-spaSchedule03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-scope.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/05-scope.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06-let.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/06-let.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-作用域链.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/07-作用域链.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08-原型.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/08-原型.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09-使用Object.create创建对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/09-使用Object.create创建对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10-使用Object.create()和工厂函数.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/Single Page Application/10-使用Object.create()和工厂函数.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/AngularJS/angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-ngSelected.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/AngularJS/01-ngSelected.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -37,10 +308,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[微博]</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,30 +324,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class/practice/059-京东会员.html" />
-        <option value="$PROJECT_DIR$/class/practice/060-下拉列表.html" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/01-loop.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/02-if.html" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/02-if.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/03-if-else.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/04-switch.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/05-path.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/04-readline.js" />
-        <option value="$PROJECT_DIR$/class/practice/anki/061-获取兼职.html" />
-        <option value="$PROJECT_DIR$/class/practice/anki/061-获取键值.html" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/06-switch.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/07-while.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/08-for.html" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/08-for.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/10-function return.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/11-curve.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/12-showScope.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/13-showScope02.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/14-showScope03.html" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/14-showScope03.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/09-for array.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/15-factorial02.js" />
-        <option value="$PROJECT_DIR$/class/practice/data structure/16-checkingbalance.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/41-arraySplice01.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/42-arraySplice02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/43-arrayReverse.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/44-arraySort.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/45-arraySort02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/46-arraySort03.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/47-arrayForEach.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/48-arrayEvery.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/49-arraySome.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/50-arrayReduce.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/51-arrayReduce02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/52-reduceRight.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/53-reduceRight02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/53-arrayMap.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/54-arrayMap02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/55-arrayFilter01.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/56-arrayFilter02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/57-arrayFilter03.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/058-arrayMultiple.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/059-arrayMultiple02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/060-arrayMultiple03.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/061-arrayMultipleCol.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/062-arrayRagged.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/063-arrayObject.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/064-arrayObject02.js" />
+        <option value="$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/021-isArray.js" />
+        <option value="$PROJECT_DIR$/class/practice/anki/part001/063-bdo标签.html" />
+        <option value="$PROJECT_DIR$/class/practice/CSS The Definitive Guide/01-head01.html" />
+        <option value="$PROJECT_DIR$/class/practice/CSS The Definitive Guide/02-head02.html" />
+        <option value="$PROJECT_DIR$/class/practice/CSS The Definitive Guide/03-head03.html" />
+        <option value="$PROJECT_DIR$/class/practice/CSS The Definitive Guide/04-head04.html" />
+        <option value="$PROJECT_DIR$/class/practice/CSS The Definitive Guide/05-usecss.html" />
+        <option value="$PROJECT_DIR$/class/day01/13-base.html" />
+        <option value="$PROJECT_DIR$/class/day01/12-综合案例.html" />
+        <option value="$PROJECT_DIR$/practice/anki/099-回调函数.js" />
+        <option value="$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/028-arrayIndexOf.js" />
+        <option value="$PROJECT_DIR$/practice/anki/124-作业讲解.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/01-spa.html" />
+        <option value="$PROJECT_DIR$/practice/anki/154-作业讲解.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/02-spaSchedule.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/03-spaSchedule02.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/04-spaSchedule03.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/05-scope.js" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/05-scope.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/06-let.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/07-作用域链.js" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/07-作用域链.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/08-原型.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/09-使用Object.create创建对象.html" />
+        <option value="$PROJECT_DIR$/practice/Single Page Application/10-使用Object.create()和工厂函数.html" />
+        <option value="$PROJECT_DIR$/practice/AngularJS/01-ngSelected.html" />
       </list>
     </option>
   </component>
@@ -84,8 +387,11 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -125,15 +431,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data Structures and Algorithms with JavaScript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -147,15 +445,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="anki" />
+              <option name="myItemId" value="AngularJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,14 +474,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Projects/WebstormProjects/anki" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\homework\practice" />
+      <recent name="F:\git\homework" />
+      <recent name="F:\git\homework\class\practice\anki\part001" />
       <recent name="F:\git\homework\class\practice\anki" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\homework\practice\AngularJS" />
+      <recent name="F:\git\homework\practice" />
+      <recent name="F:\git\homework\practice\anki" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,31 +587,35 @@
       <updated>1500279809709</updated>
       <workItem from="1500279813572" duration="6902000" />
       <workItem from="1500305551052" duration="2411000" />
-      <workItem from="1500307994668" duration="11000" />
+      <workItem from="1500307994668" duration="412000" />
+      <workItem from="1500329593441" duration="5593000" />
+      <workItem from="1500423464865" duration="16486000" />
+      <workItem from="1500509136078" duration="15557000" />
+      <workItem from="1500596167796" duration="10440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9324000" />
+    <option name="totallyTimeSpent" value="57801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -322,12 +628,55 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/061-获取键值.html">
+    <entry file="file://$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/028-arrayIndexOf.js" />
+    <entry file="file://$PROJECT_DIR$/class/practice/anki/part001/063-bdo标签.html" />
+    <entry file="file://$PROJECT_DIR$/class/practice/Data Structures and Algorithms with JavaScript/006-switch.js" />
+    <entry file="file://$PROJECT_DIR$/class/practice/CSS The Definitive Guide/01-head01.html" />
+    <entry file="file://$PROJECT_DIR$/class/practice/CSS The Definitive Guide/02-head02.html" />
+    <entry file="file://$PROJECT_DIR$/class/practice/CSS The Definitive Guide/03-head03.html" />
+    <entry file="file://$PROJECT_DIR$/class/practice/CSS The Definitive Guide/04-head04.html" />
+    <entry file="file://$PROJECT_DIR$/class/practice/CSS The Definitive Guide/05-usecss.html" />
+    <entry file="file://$PROJECT_DIR$/practice/Anki/001-细线课表0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/CSS The Definitive Guide/01-head01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/002-if.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/07-转行内块元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/02-css书写位置.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/03-标签分类(显示方式).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -335,116 +684,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/059-京东会员.html">
+    <entry file="file://$PROJECT_DIR$/class/day04/04-行内元素.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/05-行内块元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/06-块元素、行内元素转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/06-锚点（使用name属性）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/01-常用快捷键.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/02-文本格式化标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/03-图片标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/04-超链接.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/05-锚点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day01/13-base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/099-回调阶乘.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/anki/099-回调函数.js" />
+    <entry file="file://$PROJECT_DIR$/class/day01/12-综合案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Data Structures and Algorithms with JavaScript/028-arrayIndexOf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/055-作业讲解效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/054-作业讲解效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-859">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day04/01-作业讲解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day03/02-表格和表单作业复习1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/day03/03-表格和表单作业复习2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/070-bdo标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/133-设置下标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Anki/124-作业讲解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
-            <element signature="e#378#384#0" expanded="false" />
-            <element signature="e#437#443#0" expanded="false" />
-            <element signature="e#443#449#0" expanded="false" />
-            <element signature="e#449#455#0" expanded="false" />
-            <element signature="e#545#551#0" expanded="false" />
+            <element signature="e#1090#1096#1" expanded="false" />
+            <element signature="e#1119#1125#0" expanded="false" />
+            <element signature="e#1144#1150#1" expanded="false" />
+            <element signature="e#1170#1176#1" expanded="false" />
+            <element signature="e#1211#1217#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/060-下拉列表.html">
+    <entry file="file://$PROJECT_DIR$/practice/Anki/154-作业讲解.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/043-键值判断.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/01-loop.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/03-if-else.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/04-readline.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/061-获取键值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/05-path.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/06-switch.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/036-注册.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/034-京东会员.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/059-京东会员.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="653">
+          <caret line="50" column="161" lean-forward="false" selection-start-line="50" selection-start-column="161" selection-end-line="50" selection-end-column="161" />
           <folding>
-            <element signature="e#378#384#0" expanded="false" />
-            <element signature="e#437#443#0" expanded="false" />
-            <element signature="e#443#449#0" expanded="false" />
-            <element signature="e#449#455#0" expanded="false" />
-            <element signature="e#545#551#0" expanded="false" />
+            <element signature="e#1090#1096#1" expanded="false" />
+            <element signature="e#1119#1125#0" expanded="false" />
+            <element signature="e#1144#1150#1" expanded="false" />
+            <element signature="e#1170#1176#1" expanded="false" />
+            <element signature="e#1225#1231#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/060-下拉列表.html">
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/02-spaSchedule01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/043-键值判断.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/01-loop.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.html" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/02-if.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/03-if-else.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/05-path.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/04-readline.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/06-switch.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/07-while.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/08-for.html" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/08-for.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/10-factorial.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/11-curve.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/anki/061-获取键值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/12-showScope.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/13-showScope02.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/14-showScope03.html" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/14-showScope03.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/09-for array.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/15-factorial02.js" />
-    <entry file="file://$PROJECT_DIR$/class/practice/data structure/16-checkingbalance.js" />
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/03-spaSchedule02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/01-spa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/04-spaSchedule03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/05-scope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/05-scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/06-let.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/07-作用域链.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/07-作用域链.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/08-原型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/09-使用Object.create创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/Single Page Application/10-使用Object.create()和工厂函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/AngularJS/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/AngularJS/01-ngSelected.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

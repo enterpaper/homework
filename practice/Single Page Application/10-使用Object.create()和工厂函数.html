@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var proto = {
+            sentence  : 4,
+            probation : 2
+        };
+        var makePrisoner = function(name, id) {
+            var prisoner = Object.create(proto);
+            prisoner.name = name;
+            prisoner.id = id;
+
+            return prisoner;
+        };
+        var firsetPrisoner = makePrisoner('Joe', '12A');
+        var sencondPrisoner = makePrisoner('Sam', '2BC');
+    </script>
+</body>
+</html>
