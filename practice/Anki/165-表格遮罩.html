@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style type="text/css">
+        .question {
+            float: left;
+        }
+        .answer {
+            float: right;
+        }
+    </style>
+    <script src="147-JScriptBug.js"></script>
 </head>
 <body>
-$END$
+    <div class="question">
+        <input type="button" value="隐藏" id="queBtn">
+        <div id="queDiv">
+            <div>问题1</div>
+            <div>问题2</div>
+            <div>问题3</div>
+            <div>问题4</div>
+            <div>问题5</div>
+            <div>问题6</div>
+            <div>问题7</div>
+        </div>
+    </div>
+    <div class="answer">
+        <input type="button" value="隐藏" id="ansBtn">
+        <div id="ansDiv">
+            <div>答案1</div>
+            <div>答案2</div>
+            <div>答案3</div>
+            <div>答案4</div>
+            <div>答案5</div>
+            <div>答案6</div>
+            <div>答案7</div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var queBtn = document.getElementById("queBtn");
+        var ansBtn = document.getElementById("ansBtn");
+
+        var queDiv = document.getElementById("queDiv");
+        var ansDiv = document.getElementById("ansDiv");
+
+        function show(ele) {
+            ele.style.dispaly = "block";
+        }
+
+        function hidden(ele) {
+            ele.style.display = "hidden";
+        }
+
+        queBtn.onclick = function() {
+            hidden(queDiv);
+            queBtn.value = "显示";
+        }
+    </script>
 </body>
 </html>
