@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        form input.username {
+            border: 0 none;
+            outline-style: none;
+            background-color: #aaa;
+            border: 1px dashed green;
+        }
+        form input.username:focus {
+            background-color: red;
+        }
+        form input.email {
+            border: 0 none;
+            outline-style: none;
+            border-bottom: 1px dotted red;
+        }
+        form input.search {
+            border: 0 none;
+            outline-style: none;
+            border: 1px solid #000;
+            background: url("images/search.jpg") no-repeat right;
+        }
+    </style>
+</head>
+<body>
+    <form action="1.php" method="post">
+        <label for="username">用&nbsp;&nbsp;户&nbsp;&nbsp;名：</label><input type="text" id="username" class="username"><br /><br />
+        <label for="email">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</label><input type="text" id="email" class="email"><br /><br />
+        <label for="search">搜索一下：</label><input type="text" id="search" class="search">
+    </form>
+</body>
+</html>
