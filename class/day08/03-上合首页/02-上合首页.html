@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*初始化开始*/
+        body,div,ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input{
+            margin:0;
+            padding: 0;
+            font:12px simsun;
+        }
+        img{
+            border: 0 none;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        input{
+            border: 0 none;
+            outline-style: none;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        /*初始化结束*/
+
+        /*公共类*/
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        /*公共类*/
+        .header {
+            width: 980px;
+            height: 39px;
+            margin: 20px auto 0;
+        }
+        .header .logo {
+            width: 179px;
+            height: 23px;
+            float: left;
+        }
+        .header .search {
+            width: 195px;
+            height: 30px;
+            float: right;
+            border: 1px solid #ECECEC;
+        }
+        .header .search input[type="text"] {
+            width: 165px;
+            height: 30px;
+            vertical-align: top;
+            font-size: 12px;
+            font-family: "SimSun", "宋体", "Arial Narrow";
+        }
+        .header .search input[type="button"] {
+            width: 30px;
+            height: 30px;
+            background: url("search2.jpg");
+            vertical-align: top;
+        }
+        .nav {
+            height: 55px;
+            background: url("nav_bg.png");
+            border: 1px solid #BBBBBB;
+        }
+        .nav .nav-content {
+            width: 980px;
+            height: 55px;
+            margin: 0 auto;
+        }
+        .nav .nav-content li {
+            float: left;
+        }
+        .nav .nav-content li a {
+            display: inline-block;
+            height: 55px;
+            padding: 0 30px;
+            line-height: 55px;
+            background: url("nav_bg-line.png") no-repeat right;
+            color: #000000;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .nav .nav-content li a:hover {
+            color: #7CB609;
+        }
+    </style>
+</head>
+<body>
+    <!--.header>.logo>img[src="logo.jpg"]+^.search>input[type="text"]+input[type="button"]-->
+    <div class="header">
+        <div class="logo"><img src="logo.jpg" alt=""></div>
+        <div class="search"><input type="text" value="请输入..." name="search"><input type="button"></div>
+    </div>
+    <div class="nav">
+        <ul class="nav-content">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">智能手机</a></li>
+            <li><a href="#">平板电脑</a></li>
+            <li><a href="#">配件</a></li>
+            <li><a href="#">服务支持</a></li>
+            <li><a href="#">关于尚合</a></li>
+        </ul>
+    </div>
+</body>
+</html>

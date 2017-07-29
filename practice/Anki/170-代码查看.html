@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+.code-content {
+    width: 90%;
+    margin: 0 auto;
+}
+.code-content .title {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: 5px;
+    border: 1px solid #800000;
+    cursor: pointer;
+}
+.code-content ol, .code-content li {
+    margin: 0;
+    padding: 0;
+}
+.code-content ol li {
+    width: 100%;
+    counter-increment: linenum;
+    list-style: none;
+    background-color: #272822;
+    color: #F8F8F2;
+    font-family: consolas;
+    word-break: break-all;
+}
+.code-content ol li:before {
+    content: counter(linenum) ".";
+    display: inline-block;
+    width: 50px;
+    color: #90908A;
+    text-align: right;
+    padding-right: 10px;
+}
+.code-content .code-html {
+    display: block;
+}
+.code-content .code-css {
+    display: none;
+}
+.code-content .code-javascript {
+    display: none;
+}
+    </style>
+</head>
+<body>
+<div class="code-content">
+    <div class="title" id="htmlTitle" onclick="showHtml()">HTML</div>
+    <div class="title" id="cssTitle" onclick="showCss()">CSS</div>
+    <div class="title" id="javascriptTitle" onclick="showJavascript()">JAVASCRIPT</div>
+    <div class="code-html" id="htmlContent">
+<ol>
+    <li>Hello World! HTML</li>
+</ol>
+    </div>
+    <div class="code-css" id="cssContent">
+        <ol>
+            <li>Hello World! CSS</li>
+        </ol>
+    </div>
+    <div class="code-javascript" id="javascriptContent">
+        <ol>
+            <li>Hello World! JAVASCRIPT</li>
+        </ol>
+    </div>
+</div>
+<script type="text/javascript">
+function showHtml() {
+    var htmlTitle = document.getElementById("htmlTitle");
+    var cssTitle = document.getElementById("cssTitle");
+    var javascriptTitle = document.getElementById("javascriptTitle");
+
+    var htmlContent = document.getElementById("htmlContent");
+    var cssContent = document.getElementById("cssContent");
+    var javascriptContent = document.getElementById("javascriptContent");
+
+    htmlContent.style.display = "block";
+    cssContent.style.display = "none";
+    javascriptContent.style.display = "none";
+}
+function showCss() {
+    var htmlTitle = document.getElementById("htmlTitle");
+    var cssTitle = document.getElementById("cssTitle");
+    var javascriptTitle = document.getElementById("javascriptTitle");
+
+    var htmlContent = document.getElementById("htmlContent");
+    var cssContent = document.getElementById("cssContent");
+    var javascriptContent = document.getElementById("javascriptContent");
+
+    htmlContent.style.display = "none";
+    cssContent.style.display = "block";
+    javascriptContent.style.display = "none";
+}
+function showJavascript() {
+    var htmlTitle = document.getElementById("htmlTitle");
+    var cssTitle = document.getElementById("cssTitle");
+    var javascriptTitle = document.getElementById("javascriptTitle");
+
+    var htmlContent = document.getElementById("htmlContent");
+    var cssContent = document.getElementById("cssContent");
+    var javascriptContent = document.getElementById("javascriptContent");
+
+    htmlContent.style.display = "none";
+    cssContent.style.display = "none";
+    javascriptContent.style.display = "block";
+}
+</script>
+</body>
+</html>

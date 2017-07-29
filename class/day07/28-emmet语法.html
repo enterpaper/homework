@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    p.box
+    .box
+    .header>.logo>img[src="images/1.png"]+.search>input[type="text"]+input[type="input"]
+<div class="header">
+    <div class="logo">
+        <img src="images/1.png" alt="">
+    </div>
+    <div class="search">
+        <input type="text">
+        <input type="input">
+    </div>
+</div>
+
+<div class="header">
+    <div class="logo"><img src="images/1.png" alt="">
+        <div class="search"><input type="text"><input type="input"></div>
+    </div>
+</div>
+
+    .header>.logo>img[src="images/1.png"]+^.search>input[type="text"]+input[type="input"]
+
+<div class="header">
+    <div class="logo"><img src="images/1.png" alt=""></div>
+    <div class="search"><input type="text"><input type="input"></div>
+</div>
+</body>
+</html>
