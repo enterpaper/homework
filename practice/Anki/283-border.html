@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box {
+            width: 0;
+            height: 0;
+            border-top: 40px solid maroon;
+            border-right: 40px solid green;
+            border-bottom: 40px solid red;
+            border-left: 40px solid blue;
+        }
+        .triangle1 {
+            box-sizing: border-box;
+            width: 80px;
+            height: 40px;
+            border-top: 40px solid maroon;
+            border-right: 40px solid white;
+            border-left: 40px solid white;
+            position: relative;
+        }
+        .triangle2 {
+            box-sizing: border-box;
+            width: 80px;
+            height: 40px;
+            border-top: 40px solid white;
+            border-right: 40px solid transparent;
+            border-left: 40px solid transparent;
+            position: absolute;
+            left: -40px;
+            bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<br />
+<div class="triangle1">
+    <div class="triangle2"></div>
+</div>
+</body>
+</html>

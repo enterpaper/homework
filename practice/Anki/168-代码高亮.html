@@ -8,9 +8,38 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <div class="code">
     <ol>
-        <li>&lt;p&gt;一打有 &lt;del&gt;二十&lt;/del&gt; &lt;ins&gt;十二&lt;/ins&gt; 件。&lt;/p&gt;</li>
-        <li>&lt;p&gt;大多数浏览器会改写为删除文本和下划线文本。&lt;/p&gt;</li>
-        <li>&lt;p&gt;一些老式的浏览器会把删除文本和下划线文本显示为普通文本。&lt;/p&gt;</li>
+        <li>table{</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;border-collapse:&nbsp;collapse;</li>
+        <li>}</li>
+    </ol>
+</div>
+<h2>方式一、引入外部样式文件</h2>
+<div class="code">
+    <ol>
+        <li>&lt;link rel="stylesheet" type="text/css" href="outer.css"&gt;</li>
+    </ol>
+</div>
+<h2>方式二、导入外部样式单</h2>
+<div class="code">
+    <ol>
+        <li>&lt;style type="text/css"&gt;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;@import url("outer.css");</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;/* url可以省略 */</li>
+        <li>&lt;/style&gt;</li>
+    </ol>
+</div>
+<h2>方式三、使用内部CSS样式</h2>
+<div class="code">
+    <ol>
+        <li>&lt;style type="text/css"&gt;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;样式单文件定义</li>
+        <li>&lt;/style&gt;</li>
+    </ol>
+</div>
+<h2>方式四、使用内联样式</h2>
+<div class="code">
+    <ol>
+        <li>style="property1:value1;property2:value2..."</li>
     </ol>
 </div>
 <style type="text/css">
@@ -34,6 +63,9 @@
         color: #90908A;
         text-align: right;
         padding-right: 10px;
+    }
+    h2 {
+        color: #EF9A9A;
     }
 </style>
 </body>

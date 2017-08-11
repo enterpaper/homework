@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var arr = [12, 34, 32, 45, 19];
+    console.log(arr);
+    for(var i=0; i<arr.length-1; i++) {
+        for(var j=0; j<arr.length-1-i; j++) {
+            if(arr[j]>arr[j+1]) {
+                var temp = arr[j+1];
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    console.log(arr);
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var arr = [7, 6, 5, 4, 3, 2, 1];
+    var comparison = 0;
+    var exchange = 0;
+    console.log(arr);
+    for(var i=0; i<arr.length-1; i++) {
+        var bool = true;
+        for(var j=0; j<arr.length-1; j++) {
+            if(arr[j]>arr[j+1]) {
+                var temp = arr[j + 1];
+                arr[j + 1] = arr[j];
+                arr[j] = temp;
+                bool = false;
+                exchange ++;
+            }
+            comparison ++;
+        }
+        if(bool) {
+            break;
+        }
+    }
+    console.log(arr);
+    console.log("性能分析：比较" + comparison + " 交换：" + exchange);
+</script>
+</body>
+</html>

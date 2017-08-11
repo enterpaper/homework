@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    var arr = [10, 20, 30];
+//    var sum = 0;
+//    var avg = 0;
+//    for(var i=0; i<arr.length; i++) {
+//        sum += arr[i];
+//    }
+//    avg = sum / arr.length;
+//    console.log("sum: "+sum+" avg: "+avg);
+
+//    var arr = [43, 78, 32, 12, 68];
+//    var max = arr[0];
+//    var min = arr[0];
+//    var maxLoc = 0;
+//    var minLoc = 0;
+//    for(var i=0; i<arr.length; i++) {
+//        if(max<=arr[i]) {
+//            max = arr[i];
+//            maxLoc = i;
+//        }
+//        if(min>=arr[i]) {
+//            min = arr[i];
+//            minLoc = i;
+//        }
+//    }
+//    console.log(arr);
+//    console.log("最大值是：" + max +" 位置是：" + maxLoc);
+//    console.log("最小值是：" + min +" 位置是：" + minLoc);
+
+//    var arr = ["关羽","张飞","赵云","马超","黄忠"];
+//    var separator = "|";
+//    var str = "";
+//    for(var i=0; i<arr.length; i++) {
+//        str += arr[i] + separator;
+//    }
+//    console.log(str);
+
+
+//    var arr = [19, 0 ,34, 0, 10, 42];
+//    var arrNew = [];
+//    for(var i=0; i<arr.length; i++) {
+//        if(arr[i] !== 0) {
+//            arrNew[arrNew.length] = arr[i];
+//        }
+//    }
+//    console.log(arrNew);
+
+//    var arr = [1, 2, 3, 4, 5];
+//    console.log(arr);
+//    for(var i=0; i<arr.length/2; i++) {
+//        var temp = arr[arr.length-1-i];
+//        arr[arr.length-1-i] = arr[i];
+//        arr[i] = temp;
+//    }
+//    console.log(arr);
+
+//    var arr = [5, 4, 3, 2, 1];
+//    console.log(arr);
+//    for(var i=0; i<arr.length; i++) {
+//        for(var j=0; j<arr.length; j++) {
+//
+//        }
+//    }
+
+//    //三、将字符串数组用|或其他符号分割
+//    var arr = ["吕超","赵云","典韦","关羽","马超","张飞"];
+//    var str = arr[0];
+//    var separator = "|";
+//    //为了避免第一个名字前有|,把第一个名字从数组中取出，赋值给str，然后在链接其他名字。
+//    for(var i=1;i<arr.length;i++){
+//        str += separator+ arr[i];
+//    }
+//    console.log(str);
+//    console.log(arr.join("|"));
+
+//五、翻转数组
+//思路：实现方法：1.定义一个新数组，把老数组中的元素从后往前添加到新数组中。
+//思路：实现方法：1.操作原数组，让原数组第一位和最后一个位调换位置，以此类推。
+    var arr = ["刘备","关羽","张飞","诸葛亮","马超","黄忠","姜维"];
+    console.log(arr);
+//    //思路：实现方法：1.定义一个新数组，把老数组中的元素从后往前添加到新数组中。
+//    var newArr = [];
+//    //复杂版
+//    for(var i=0;i<arr.length;i++){
+//        //用新数组的长度作为索引值。  给定数组的最大索引值，然后-去i，因为i自增所以，获取的将是最大索引值到0;
+//        newArr[newArr.length] = arr[arr.length-1-i];
+//    }
+//    console.log(newArr);
+    //简单版
+//    for(var i=arr.length-1;i>=0;i--){
+//        //用新数组的长度作为索引值。  给定数组的最大索引值，然后-去i，因为i自增所以，获取的将是最大索引值到0;
+//        newArr[newArr.length] = arr[i];
+//    }
+//    console.log(newArr);
+
+//思路：实现方法：1.操作原数组，让原数组第一位和最后一个位调换位置，以此类推。
+for(var i=0;i<arr.length/2;i++){
+    //让前后数组中的元素交换位置。
+    var temp = arr[i];
+    //前面项和对应的后面项交换位置。（arr.length-1-i = 倒数第i+1项）
+    arr[i] = arr[arr.length-1-i];
+    arr[arr.length-1-i] = temp;
+}
+
+console.log(arr);
+
+</script>
+</body>
+</html>

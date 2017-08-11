@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var id = Number(prompt("请输入汽油编号"));
+        var price = 0;
+        if(id === 92 || id === 97) {
+            var cap = Number(prompt("需要加多少升？"));
+            if(id === 92) {
+                if(cap >= 20) {
+                    price = cap * 5.9;
+                } else {
+                    price = cap * 6;
+                }
+            } else if(id === 97) {
+                if(cap >= 30) {
+                    price = cap * 6.95;
+                } else {
+                    price = cap * 7;
+                }
+            }
+            price = price.toFixed(2);
+            alert("一共" + price + "元。")
+        } else {
+            alert("很抱歉，暂时没有该类型的汽油。");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
