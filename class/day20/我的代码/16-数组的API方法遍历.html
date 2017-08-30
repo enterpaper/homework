@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    var arr = ["关长","张飞","赵龙","马超","黄忠"];
+//    arr.every(function(element, index, array) {
+//        console.log(element);
+//        console.log(index);
+//        console.log(array);
+//    });
+
+//    var arr = ["关长","张飞","赵龙","马超","黄忠"];
+//    arr.every(function(element, index, array) {
+//        console.log(element);
+//        console.log(index);
+//        console.log(array);
+//        return true;
+//    });
+
+//    var arr = ["关长","张飞","赵龙","马超","黄忠"];
+//    console.log(arr);
+//    arr.every(function(element, index, array) {
+//       element = "aaa";
+//    });
+//    console.log(arr);
+
+//    var arr = ["关长","张飞","赵龙","马超","黄忠"];
+//    console.log(arr);
+//    arr.every(function(element, index, array) {
+//        return array[index] = "aaa";
+//    });
+//    console.log(arr);
+
+//    var arr = ["关长","张飞","赵龙","马超","黄忠"];
+//    console.log(arr);
+//    arr.every(function(element, index, array) {
+//        array[index] = "aaa";
+//        return true;
+//    });
+//    console.log(arr);
+
+//    var arr = ["关长","张飞","赵子龙","马超","黄忠"];
+//    var rec = arr.every(function(element, index, array) {
+//        return !(element.length>2);
+//    });
+//    console.log(rec);
+
+//    var arr = ["关长","张飞","赵子龙","马超","黄忠"];
+//    //filter返回值是一个新数组。return为true的数组。
+//    var arr1 = arr.filter(function (ele,index,array) {
+//        if(ele.length>2){
+//            return true;
+//        }
+//        return false;
+//    });
+//    console.log(arr1);
+
+//    var arr = ["关长","张飞","赵子龙","马超","黄忠"];
+//    var rec = arr.forEach(function(ele, index, array) {
+//        console.log(ele);
+//        return true;
+//    });
+//    console.log(rec);
+
+//    var arr = ["关长","张飞","赵子龙","马超","黄忠"];
+//    console.log(arr);
+//    var rec = arr.map(function(item,index,arr) {
+//        return "hello! " + item;
+//    });
+//    console.log(rec);
+
+    var arr = ["关长","张飞","赵子龙","马超","黄忠"];
+    var flag = arr.some(function(item, index, array) {
+        return item.length > 2;
+    });
+    console.log(flag);
+</script>
+</body>
+</html>

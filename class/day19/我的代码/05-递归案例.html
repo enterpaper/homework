@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    console.log(getSum(100));
+    function getSum(num) {
+        if(num === 1) {
+            return 1;
+        }
+        return num+getSum(num-1);
+    }
+</script>
+</body>
+</html>

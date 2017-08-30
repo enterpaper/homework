@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <script>
+
+        //rows:返回值是数组(只读，table和textarea能用)
+        var tab = document.getElementsByTagName("table")[0];
+//        console.log(tab.rows);
+
+        //insertRow()(只有table能调用)
+//        var tr = document.createElement("tr");
+//        var aaa = tab.insertRow(2);//指定索引值之前插入
+//        console.log(aaa);
+//        console.log(tab.rows);
+
+//        var tr = document.createElement("tr");
+//        var aaa = tab.insertRow(2);
+//        console.log(aaa == tr);
+
+//        //deleteRow()(只有table能调用)
+//        console.log(tab.rows);
+//        tab.deleteRow(1);
+//        console.log(tab.rows);
+
+        //cells(只读，tr和textarea能用)
+//        var ce = tab.children[0];
+//        console.log(ce.children[0].cells);
+
+//        console.log(tab.children[0]);
+
+        //insertCell()(只有tr能调用)
+//        var ce = tab.children[0];
+//        ce.children[0].insertCell(0);
+//        console.log(ce.children[0]);
+
+        //deleteCell()(只有tr能调用)
+        var ce = tab.children[0];
+        ce.children[0].deleteCell(0);
+        console.log(ce.children[0]);
+
+
+
+
+    </script>
+
+
+</body>
+</html>

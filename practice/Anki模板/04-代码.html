@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var pre = document.getElementById("pre");
+            var code = pre.children[0];
+            var codeContent = code.innerText;
+            var contentArr = codeContent.split("\n");
+
+            var body = document.body;
+
+
+            //去掉前后空字符串
+            contentArr.pop();
+            contentArr.shift();
+
+            //将字符串数组元素的空格替换为&nbsp;
+            for(var i=0; i<contentArr.length; i++) {
+                contentArr[i] = contentArr[i].replace(/ /g, "&nbsp;");
+            }
+
+            //删除pre节点
+            body.removeChild(pre);
+
+            //动态添加ol到body中
+            var ol = document.createElement("ol");
+            for(var i=0; i<contentArr.length; i++) {
+                var li = document.createElement("li");
+                li.innerHTML = contentArr[i];
+                //隔行变色
+                li.style.backgroundColor = i % 2 === 0 ? "#F0F0F0" : "#FAFAFA";
+                ol.appendChild(li);
+            }
+            body.appendChild(ol);
+        }
+    </script>
+</head>
+<body>
+<pre id="pre">
+<code>
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+</code>
+</pre>
+
+</body>
+</html>

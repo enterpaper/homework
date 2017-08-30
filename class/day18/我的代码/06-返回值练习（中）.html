@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    var radius = 5;
+//    console.log("圆的半径：" + radius);
+//    console.log("圆的周长：" + getPerimeter(radius));
+//    console.log("圆的面积：" + getArea(radius));
+//
+//    function getPerimeter(radius) {
+//        return 2*Math.PI*radius;
+//    }
+//    function getArea(radius) {
+//        return Math.pow(radius, 2)*Math.PI;
+//    }
+
+//    console.log(max(6, 3));
+//    function max(num1, num2) {
+//        return num1 > num2 ? num1 : num2;
+//    }
+
+//    console.log(getMax(6, 3, 9));
+//    function getMax(num1, num2, num3) {
+//        return (num1>num2?num1:num2)>num3?(num1>num2?num1:num2):num3;
+//    }
+
+//    function getMax(num1, num2, num3) {
+//        if(num1 > num2 && num1 > num3) {
+//            return num1;
+//        }
+//        if(num2 > num1 && num2 > num3) {
+//            return num2;
+//        }
+//        if(num3 > num1 && num3 > num2) {
+//            return num3;
+//        }
+//    }
+
+//    var arrNum = [1, 10, 8, 4, 0, -3];
+//    console.log(arrNum);
+//    console.log("最大值为：" + getMax(arrNum));
+//    function getMax(arr) {
+//        var max = arr[0];
+//        for(var i=0; i<=arr.length; i++) {
+//            if(max<arr[i]) {
+//                max = arr[i];
+//            }
+//        }
+//        return max;
+//    }
+
+//    var arrNum = [1, 10, 8, 4, 0, -3];
+//    console.log(arrNum);
+//    console.log("最大值为：" + getMin(arrNum));
+//    function getMin(arr) {
+//        var min = arr[0];
+//        for(var i=0; i<=arr.length; i++) {
+//            if(min>arr[i]) {
+//                min = arr[i];
+//            }
+//        }
+//        return min;
+//    }
+
+//    var arrOri = [1, 4, 6, 7, 3, 1, 3];
+//    console.log("翻转前的数组：" + arrOri);
+//    console.log("翻转后的数组：" + reverseArr(arrOri));
+//    function reverseArr(arr) {
+//        var arrNew = [];
+//        for(var i=0; i<arr.length; i++) {
+//            arrNew[i] = arr[i];
+//        }
+//        for(var i=0; i<arrNew.length/2; i++) {
+//            var temp = arrNew[i];
+//            arrNew[i] = arrNew[arrNew.length-1-i];
+//            arrNew[arrNew.length-1-i] = temp;
+//        }
+//        return arrNew;
+//    }
+
+//    var arrOri = [1, 4, 6, 7, 3, 1, 3];
+//    console.log("排序前：" + arrOri);
+//    sortArr(arrOri);
+//    console.log("排序后：" + arrOri);
+//    function sortArr(arr) {
+//        for(var j=0; j<arr.length; j++) {
+//            var key = arr[j];
+//            var i =j - 1;
+//            while(i>=0 && arr[i] > key) {
+//                arr[i+1] = arr[i];
+//                i--;
+//            }
+//            arr[i+1] = key;
+//        }
+//    }
+
+//    var num = 6;
+//    console.log(num + "的阶乘为：" + factorial(num));
+//    function factorial(num) {
+//        var product = 1;
+//        for(var i=1; i<=num; i++) {
+//            product *= i;
+//        }
+//        return product;
+//    }
+
+//    var num = 6;
+//    console.log(num + "的阶乘和为：" + factorialSum(num));
+//    function factorialSum(num) {
+//        var sum = 0;
+//        var product = 1;
+//        for(var i=1; i<=num; i++) {
+//            for(var j=1; j<=i; j++) {
+//                product *= j;
+//            }
+//            sum += product;
+//            product = 1;
+//        }
+//        return sum;
+//    }
+
+//    var num = 5;
+//    var is = "";
+//    if(isPrime(num)) {
+//        is = "是";
+//    } else {
+//        is = "不是";
+//    }
+//    console.log(num + is + "质数");
+//    function isPrime(num) {
+//        var result = true;
+//        for(var i=2; i<Math.sqrt(num); i++) {
+//            if(num % i === 0) {
+//                result = false;
+//            }
+//        }
+//        return result;
+//    }
+
+
+var arr = [4,3,2,1];
+console.log(bubble(arr));
+function bubble(array){
+    //外循环控制轮数（元素-1）
+    for(var i=0;i<array.length-1;i++){
+        //开闭原则(标志，标识，旗帜)
+        var flag = true;
+        //内循环控制次数（元素-1）
+        for(var j=0;j<array.length-1-i;j++){
+            //判断符合标准就交换位置
+            if(array[j]>array[j+1]){
+                var temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+                flag = false;
+            }
+        }
+        if(flag){
+            //此情况在数组是极限从大到小排列下，会出现问题。每一轮flag都是false，最终无返回值。
+            return array;
+//            break;
+        }
+    }
+    //有了return执行完毕方法后，就可以用变量接收返回值！
+//    return array;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    //回调函数
+//    function fn(demo) {
+//        demo();
+//    }
+
+    fn(test);
+    //回调函数:函数作为参数进行传递和使用。
+    function fn(demo){
+        demo();
+    }
+
+    function test(){
+        console.log("我是被测试的函数！");
+    }
+</script>
+</body>
+</html>

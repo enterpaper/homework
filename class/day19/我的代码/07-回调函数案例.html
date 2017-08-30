@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    console.log(arithmetic(10,5,add));
+    console.log(arithmetic(10,5,subtract));
+    console.log(arithmetic(10,5,multiply));
+    console.log(arithmetic(10,5,divide));
+
+    function arithmetic(num1,num2,fn){
+        return fn(num1,num2);
+    }
+
+    //定义四个规则：加减乘除
+    function add(a,b){
+        return a+b;
+    }
+    function subtract(a,b){
+        return a-b;
+    }
+    function multiply(a,b){
+        return a*b;
+    }
+    function divide(a,b){
+        return a/b;
+    }
+</script>
+</body>
+</html>

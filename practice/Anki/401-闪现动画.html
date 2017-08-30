@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button>动画</button>
+<div></div>
+<script type="text/javascript">
+    var btn = document.getElementsByTagName("button")[0];
+    var div = document.getElementsByTagName("div")[0];
+    btn.onclick = function() {
+        div.style.left = "400px";
+    }
+</script>
+</body>
+</html>

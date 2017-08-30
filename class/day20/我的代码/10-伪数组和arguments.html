@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    function fn(a, b) {
+//        console.log(arguments);
+//    }
+//    fn(1, 2);
+//    fn(1, 2, 3);
+//    fn(1, 2, 3, 4);
+
+//    function fn(a, b) {
+//        arguments.push(0);
+//        console.log(arguments);
+//    }
+//    fn(1, 2);
+
+//    function fn(a, b) {
+//        arguments[0] = 100;
+//        console.log(arguments);
+//    }
+//    fn(1, 2);
+
+//    function fn(a, b) {
+//        console.log(arguments);
+//        console.log(arguments instanceof Array);
+//    }
+//    fn(1, 2);
+
+//    function fn(a, b) {
+//        console.log(arguments.length); // 实参个数
+//        console.log(fn.length); // 形参个数
+//    }
+//    fn(1, 2, 3);
+
+    function fn(a, b) {
+        console.log(arguments.callee); // 代表整个函数
+    }
+    fn(1, 2);
+</script>
+</body>
+</html>

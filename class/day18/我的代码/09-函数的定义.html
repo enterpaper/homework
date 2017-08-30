@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    fn1();
+//    fn2();
+    fn3();
+    function fn1() {
+        console.log("我是第一种定义方式");
+    }
+    var fn2 = function() {
+        console.log("我是第二种定义方式");
+    };
+    var fn3 = new Function("console.log('我是第三种定义方式')");
+</script>
+</body>
+</html>

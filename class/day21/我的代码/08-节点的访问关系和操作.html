@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box1" id="box1">
+    <div class="box2"></div>
+    <!-- 这是注释 -->
+    <div class="box3"></div>
+</div>
+<script type="text/javascript">
+//    var box1 = document.getElementById("box1");
+//    var son = box1.firstElementChild || box1.firstChild;
+//    console.log(son);
+//    var father = son.parentNode;
+//    console.log(father);
+
+//    var box2 = document.getElementsByClassName("box1")[0];
+//    var father = box2.parentNode;
+
+//    var box2 = document.getElementsByClassName("box2")[0];
+//    var brother = box2.nextElementSibling || box2.nextSibling;
+//    console.log(brother);
+
+//    var box3 = document.getElementsByClassName("box3")[0];
+//    var brother = box3.previousElementSibling || box3.previousSibling;
+//    console.log(brother);
+
+//    var box3 = document.getElementsByClassName("box3")[0];
+//    var firstChild = box3.parentNode.firstElementChild || box3.parentNode.firstChild;
+//    console.log(firstChild);
+
+//    var box1 = document.getElementsByClassName("box1")[0];
+//    var lastChild = box1.lastElementChild || box1.lastChild;
+//    console.log(lastChild);
+
+//    var box1 = document.getElementsByClassName("box1")[0];
+//    var childs = box1.childNodes;
+//    for(var i=0; i<childs.length; i++) {
+//        console.log(childs[i]);
+//        console.log("节点类型为："+childs[i].nodeType);
+//    }
+
+//    var box1 = document.getElementById("box1");
+//    var childs = box1.children;
+//    for(var i=0; i<childs.length; i++) {
+//        console.log(childs[i]);
+//        console.log("节点类型为："+childs[i].nodeType);
+//    }
+
+//    var box2 = document.getElementsByClassName("box2")[0];
+//    var brothers = siblings(box2);
+//    console.log(brothers);
+//    function siblings(elm) {
+//        var a = [];
+//        var p = elm.parentNode.children;
+//        for(var i =0,pl= p.length;i<pl;i++) {
+//            if(p[i] !== elm) a.push(p[i]);
+//        }
+//        return a;
+//    }
+
+//    var li = document.createElement("li");
+//    console.log(li);
+
+//    var box1 = document.getElementsByClassName("box1")[0];
+//    var li = document.createElement("li");
+//    box1.appendChild(li);
+//    console.log(box1);
+
+//    var box1 = document.getElementsByClassName("box1")[0];
+//    var box3 = document.getElementsByClassName("box3")[0];
+//    var li = document.createElement("li");
+//    box1.insertBefore(li, box3);
+//    console.log(box1);
+
+//    var box1 = document.getElementsByClassName("box1")[0];
+//    var box3 = document.getElementsByClassName("box3")[0];
+//    box1.removeChild(box3);
+//    console.log(box1);
+
+    var box1 = document.getElementsByClassName("box1")[0];
+    var box4 = box1.cloneNode(true);
+    box1.appendChild(box4);
+    console.log(box1);
+</script>
+</body>
+</html>

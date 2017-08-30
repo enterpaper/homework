@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    var num = 12;
+//    console.log("斐波那契数列的第" + num + "项为：" + fibonacci(num));
+//    function fibonacci(num) {
+//        if(num ===1 || num === 2) {
+//            return 1;
+//        }
+//        if(num <= 0) {
+//            return 0;
+//        }
+//        return fibonacci(num - 1) + fibonacci(num - 2);
+//    }
+
+    var year = parseInt(prompt("请输入年"));
+    var month = parseInt(prompt("请输入月"));
+    var day = parseInt(prompt("请输入日"));
+    console.log(year+"年"+month+"月"+day+"日是"+year+"年"+"的第"+calculateDays(year, month, day)+"天");
+    function calculateDays(year, month, day) {
+        var days = 0;
+        var daysArr = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+        if(year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+            daysArr[2] = 29;
+        }
+        for(var i=0; i<month; i++) {
+            days += daysArr[i];
+        }
+        days += day;
+        return days;
+    }
+
+
+</script>
+</body>
+</html>

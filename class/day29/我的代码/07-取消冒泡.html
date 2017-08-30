@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box1">
+    <div class="box2"></div>
+</div>
+<script>
+
+    var box1 = document.getElementsByClassName("box1")[0];
+    var box2 = box1.children[0];
+
+    box2.onmouseover = function (event) {
+        console.log("鼠标放到了box2上");
+//        //阻止冒泡
+//        event = event || window.event;
+//
+//        if(event && event.stopPropagation){
+//            event.stopPropagation();
+//        }else{
+//            event.cancelBubble = true;
+//        }
+    }
+
+    box1.onmouseover = function (event) {
+        console.log("鼠标放到了box1上");
+//        console.log(event.bubbles);
+        //谁触动事件，会被放进target中。
+        console.log(event.target);
+    }
+
+//    document.onclick = function(event) {
+//        event = event || window.event;
+//        console.log(event.bubbles);
+//    }
+
+</script>
+</body>
+</html>

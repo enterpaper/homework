@@ -7,19 +7,19 @@
 <body>
 <script>
 
-    //(参数和返回值)
-    //求圆的周长(long=2*pi*r)
+//    //(参数和返回值)
+//    //求圆的周长(long=2*pi*r)
 //    var long1 = getLong(0.5);
 //    console.log(long1);
 //    console.log(getLong(1));
 //    function getLong(r){
-        //通俗版
+//        //通俗版
 //        var pi = 3.141592653;
 //        var l = 2*pi*r;
 //        return l;
 //    }
-
-    //求圆的和面积(area = pi*r*r)
+//
+//    //求圆的和面积(area = pi*r*r)
 //    var area1 = getArea(1);
 //    console.log(area1);
 //    function getArea(r){
@@ -54,29 +54,29 @@
 //    }
 
     //求3个数中的最大值
-//    console.log(getMaxThree(-1,0,3));
-//    function getMaxThree(a,b,c){
-////        var d = a>b?a:b;
-////        return d>c?d:c;
-//        //精简版
-//        return (a>b?a:b)>c?(a>b?a:b):c;
-//        //判断a和b
-////        if(a>b){
-////            //如果a大判断a和c
-////            if(a>c){
-////                return a;
-////            }else{
-////                return c;
-////            }
-////        }else{
-////            //如果b打，判断b和c
-////            if(b>c){
-////                return b;
-////            }else{
-////                return c;
-////            }
-////        }
-//    }
+    console.log(getMaxThree(-1,0,3));
+    function getMaxThree(a,b,c){
+//        var d = a>b?a:b;
+//        return d>c?d:c;
+        //精简版
+        return (a>b?a:b)>c?(a>b?a:b):c;
+        //判断a和b
+//        if(a>b){
+//            //如果a大判断a和c
+//            if(a>c){
+//                return a;
+//            }else{
+//                return c;
+//            }
+//        }else{
+//            //如果b打，判断b和c
+//            if(b>c){
+//                return b;
+//            }else{
+//                return c;
+//            }
+//        }
+    }
 
 
     //求一组数中的最大值
@@ -117,7 +117,7 @@
 
 
     //翻转数组，返回一个新数组
-    //用两种方法做，第一种创建心数组。第二种直接修改原数组。
+    //用两种方法做，第一种创建新数组。第二种直接修改原数组。
 //    var arr1 = [1,2,3];
 //    var arr2 = reverse1(arr1);
 //    console.log(arr2);
@@ -130,7 +130,7 @@
 //        }
 //        return newArr;
 //    }
-
+//
 //    var arr = [1,2,3];
 //    console.log(arr);
 ////    console.log(reverse2(arr));

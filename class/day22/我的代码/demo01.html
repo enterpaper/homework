@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select id="sel" multiple>
+    <option value="0">香蕉</option>
+    <option value="1">苹果</option>
+    <option value="2">鲤鱼</option>
+    <option value="3">鸭梨</option>
+</select>
+<script type="text/javascript">
+    var sel = document.getElementById("sel");
+    sel.onclick = function() {
+        console.log(sel.value);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            padding: 20px;
+            margin: 30px;
+            border: 40px solid #FF8400;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    惊蛰至。春雷萌动，万物苏醒，蛰虫惊而破土出穴。<br>
+    惊蛰至。春雷萌动，万物苏醒，蛰虫惊而破土出穴。<br>
+    惊蛰至。春雷萌动，万物苏醒，蛰虫惊而破土出穴。<br>
+</div>
+<script>
+
+//    width和height
+//    offset带border
+//    scroll不带border，内容的宽高
+//    client不带border
+
+    var box = document.getElementsByClassName("box")[0];
+    console.log("box的offsetWidth"+box.offsetWidth);
+    console.log("box的scrollWidth"+box.scrollWidth);
+    console.log("box的clientWidth"+box.clientWidth);
+    console.log("box的offsetHeight"+box.offsetHeight);
+    console.log("box的scrollHeight"+box.scrollHeight);
+    console.log("box的clientHeight"+box.clientHeight);
+
+
+//    top和left
+//    offset距离父系盒子带有定位的盒子之间的距离
+//    scroll被卷去的部分的距离
+//    clientborder的宽高
+
+
+
+
+    //clientX和clientY
+//    event调用，鼠标距离浏览器的可视区域的距离
+
+
+
+</script>
+</body>
+</html>

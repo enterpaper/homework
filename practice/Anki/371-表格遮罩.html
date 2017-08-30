@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        table {
+            width: 100px;
+            height: 60px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 1px solid maroon;
+        }
+        tr, td {
+            border: 1px solid maroon;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr>
+        <th>属性</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>one</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>two</td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript">
+    var trArr = document.getElementsByTagName("tr"); // 获取除表题单元所在行的其他行
+    var partOneArr = []; // 表格左边所在行
+    var partTwoArr = []; // 表格右边所在行
+    var randArr = []; // 随机数数组
+
+    var flagArr = []; // 每行的opacity值，初始全为1
+
+    // 获取表格左边所在行以及右边所在行
+    for(var i=1; i<trArr.length; i++) {
+        partOneArr.push(trArr[i].children[0]);
+        partTwoArr.push(trArr[i].children[1]);
+    }
+
+    // 产生不重复的随机数数组
+    // 思路：
+    // 若有相同的则死循环产生随机数，直到不重复为止。
+    var matteSum = parseInt(Math.random()*partOneArr.length); // 所需产生随机数的个数
+    for(var i=0; i<matteSum; i++) {
+        // 检测重复
+        do {
+            var repetition = false; // 是否重复
+            var rand = parseInt(Math.random()*partOneArr.length); // 随机数
+            // 检测是否重复
+            for (var j = 0; j < randArr.length; j++) {
+                if (rand === randArr[j]) {
+                    repetition = true;
+                    break;
+                }
+            }
+            // 不重复，放入数组
+            if (!repetition) {
+                randArr.push(rand);
+            }
+        }while(repetition);
+    }
+    // 初始化flagArr，全为1
+    for(var i=0; i<partOneArr.length; i++) {
+        flagArr[i] = 1;
+    }
+    // 根据产生的随机数数组，将对应位的opacity值改为0
+    for(var i=0; i<randArr.length; i++) {
+        flagArr[randArr[i]] = 0;
+    }
+    // 将flagArr的值，赋值给左右两边
+    for(var i=0; i<flagArr.length; i++) {
+        partOneArr[i].style.opacity = flagArr[i];
+        partTwoArr[i].style.opacity = 1-flagArr[i];
+    }
+</script>
+</body>
+</html>

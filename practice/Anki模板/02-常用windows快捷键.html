@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        table {
+            border: 1px solid #ccc;
+            border-collapse: collapse; /* IE7 and lower */
+            border-spacing: 0;
+            width: 100%;
+        }
+        /*========tbody=================*/
+        tbody {
+            background-color: #F9FBE7;
+        }
+        /*========bordered table========*/
+        .bordered {
+            border: solid #ccc 1px;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 1px 1px #ccc;
+            -moz-box-shadow: 0 1px 1px #ccc;
+            box-shadow: 0 1px 1px #ccc;
+        }
+
+        .bordered tr {
+            -o-transition: all 0.1s ease-in-out;
+            -webkit-transition: all 0.1s ease-in-out;
+            -moz-transition: all 0.1s ease-in-out;
+            -ms-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+        }
+        .bordered,
+        .bordered tr:hover {
+            background: #FFCC80;
+        }
+        .bordered td,
+        .bordered th {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .bordered th {
+            background-color: #dce9f9;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+            background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+            background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9)";
+            -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+            box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+            border-top: none;
+            text-shadow: 0 1px 0 rgba(255,255,255,.5);
+        }
+        .bordered td:first-child,
+        .bordered th:first-child {
+            border-left: none;
+        }
+        .bordered th:first-child {
+            -moz-border-radius: 6px 0 0 0;
+            -webkit-border-radius: 6px 0 0 0;
+            border-radius: 6px 0 0 0;
+        }
+        .bordered th:last-child {
+            -moz-border-radius: 0 6px 0 0;
+            -webkit-border-radius: 0 6px 0 0;
+            border-radius: 0 6px 0 0;
+        }
+        .bordered tr:last-child td:first-child {
+            -moz-border-radius: 0 0 0 6px;
+            -webkit-border-radius: 0 0 0 6px;
+            border-radius: 0 0 0 6px;
+        }
+        .bordered tr:last-child td:last-child {
+            -moz-border-radius: 0 0 6px 0;
+            -webkit-border-radius: 0 0 6px 0;
+            border-radius: 0 0 6px 0;
+        }
+
+        .controller {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            z-index: 1;
+            opacity: 0;
+        }
+        .controller button {
+            display: block;
+            padding: 10px 0;
+            cursor: pointer;
+        }
+        .controller .btn {
+            position: relative;
+            top: -90px;
+        }
+    </style>
+</head>
+<body>
+<div class="controller">
+    <div class="btn">
+        <button>随机显示</button>
+        <button>显示左边</button>
+        <button>显示右边</button>
+        <button>隐藏左边</button>
+        <button>隐藏右边</button>
+    </div>
+</div>
+<table class="bordered">
+    <thead>
+        <tr>
+            <th>快捷键</th>
+            <th>描述</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ctrl+C</td>
+            <td>复制</td>
+        </tr>
+        <tr>
+            <td>Ctrl+V</td>
+            <td>粘贴</td>
+        </tr>
+        <tr>
+            <td>Ctrl+X</td>
+            <td>剪切（注意：复制和剪切后都可以粘贴）</td>
+        </tr>
+        <tr>
+            <td>Ctrl+Z</td>
+            <td>撤销，回到上一步</td>
+        </tr>
+        <tr>
+            <td>Ctrl+S</td>
+            <td>保存</td>
+        </tr>
+        <tr>
+            <td>Ctrl+Tab</td>
+            <td>软件内部切换内容</td>
+        </tr>
+        <tr>
+            <td>Alt+Tab（Windows+Tab）</td>
+            <td>打开所有软件快速切换</td>
+        </tr>
+        <tr>
+            <td>Windows+R输入命令notepad</td>
+            <td>快速打开文本文档</td>
+        </tr>
+        <tr>
+            <td>Windows+E</td>
+            <td>快速打开计算机</td>
+        </tr>
+        <tr>
+            <td>Ctrl+空格</td>
+            <td>调出输入法</td>
+        </tr>
+        <tr>
+            <td>F2</td>
+            <td>快速修改文件名</td>
+        </tr>
+        <tr>
+            <td>F5</td>
+            <td>刷新当前页面</td>
+        </tr>
+        <tr>
+            <td>Windows+L</td>
+            <td>快速让电脑待机</td>
+        </tr>
+    </tbody>
+</table>
+<script type="text/javascript">
+    var trArr = document.getElementsByTagName("tr"); // 获取除表题单元所在行的其他行
+    var btnArr = document.getElementsByTagName("button");
+    var controller = document.getElementsByClassName("controller")[0];
+    var partOneArr = []; // 表格左边所在行
+    var partTwoArr = []; // 表格右边所在行
+
+    controller.onmouseover = function() {
+        controller.style.opacity = 1;
+    }
+
+    controller.onmouseout = function() {
+        controller.style.opacity = 0;
+    }
+
+    // 获取表格左边所在行以及右边所在行
+    for(var i=1; i<trArr.length; i++) {
+        partOneArr.push(trArr[i].children[0]);
+        partTwoArr.push(trArr[i].children[1]);
+    }
+
+    // 默认随机显示
+    randomShow();
+
+    // 随机显示
+    btnArr[0].onclick = function() {
+        randomShow();
+    };
+
+
+    // 显示左边
+    btnArr[1].onclick = function() {
+        for(var i=0; i<trArr.length-1; i++) {
+            partOneArr[i].style.opacity = 1;
+        }
+    };
+
+    // 显示右边
+    btnArr[2].onclick = function() {
+        for(var i=0; i<trArr.length-1; i++) {
+            partTwoArr[i].style.opacity = 1;
+        }
+    };
+
+    // 隐藏左边（同时显示右边，否则没有意义）
+    btnArr[3].onclick = function() {
+        for(var i=0; i<trArr.length-1; i++) {
+            partOneArr[i].style.opacity = 0;
+            partTwoArr[i].style.opacity = 1;
+        }
+    };
+
+    // 隐藏右边（同时显示左边，否则没有意义）
+    btnArr[4].onclick = function() {
+        for(var i=0; i<trArr.length-1; i++) {
+            partTwoArr[i].style.opacity = 0;
+            partOneArr[i].style.opacity = 1;
+        }
+    };
+
+    function randomShow() {
+        var randArr = []; // 随机数数组
+        var flagArr = []; // 每行的opacity值，初始全为1
+        // 产生不重复的随机数数组
+        // 思路：
+        // 若有相同的则死循环产生随机数，直到不重复为止。
+        var matteSum = parseInt(Math.random()*partOneArr.length); // 所需产生随机数的个数
+        for(var i=0; i<matteSum; i++) {
+            // 检测重复
+            do {
+                var repetition = false; // 是否重复
+                var rand = parseInt(Math.random()*partOneArr.length); // 随机数
+                // 检测是否重复
+                for (var j = 0; j < randArr.length; j++) {
+                    if (rand === randArr[j]) {
+                        repetition = true;
+                        break;
+                    }
+                }
+                // 不重复，放入数组
+                if (!repetition) {
+                    randArr.push(rand);
+                }
+            }while(repetition);
+        }
+
+        // 初始化flagArr，全为1
+        for(var i=0; i<partOneArr.length; i++) {
+            flagArr[i] = 1;
+        }
+        // 根据产生的随机数数组，将对应位的opacity值改为0
+        for(var i=0; i<randArr.length; i++) {
+            flagArr[randArr[i]] = 0;
+        }
+        // 将flagArr的值，赋值给左右两边
+        for(var i=0; i<flagArr.length; i++) {
+            partOneArr[i].style.opacity = flagArr[i];
+            partTwoArr[i].style.opacity = 1-flagArr[i];
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            padding: 20px;
+            margin: 30px;
+            border: 40px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box"></div>
+
+<script>
+
+    //clientWidth和clientHeight
+    var box = document.getElementsByTagName("div")[0];
+    //不包括margin和border
+    //padding+width
+//    console.log("clientWidth是："+box.clientWidth);
+//    console.log("clientHeight是："+box.clientHeight);
+
+    //clientTop获取的是上border
+    console.log("box的clientTop是："+box.clientTop);
+    console.log("box的clientLeft是："+box.clientLeft);
+
+
+
+
+</script>
+</body>
+</html>

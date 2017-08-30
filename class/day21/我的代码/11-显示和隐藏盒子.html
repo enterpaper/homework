@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .container {
+            width: 300px;
+        }
+        .title {
+            height: 40px;
+            background-color: aquamarine;
+        }
+        .content {
+            height: 260px;
+            background-color: maroon;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="title"></div>
+    <div class="content"></div>
+</div>
+<script type="text/javascript">
+    var title = document.getElementsByClassName("title")[0];
+    var content = document.getElementsByClassName("content")[0];
+    title.onmouseover = function() {
+        content.style.display = "block";
+    }
+    title.onmouseout = function() {
+        content.style.display = "none";
+    }
+</script>
+</body>
+</html>
