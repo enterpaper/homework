@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+//            $(document).on("click", {"name": "LvChao"},function (e) {
+//                console.log(e.data);
+//                console.log(e.currentTarget );
+//                console.log(e.target );
+//                console.log(e.pageX );
+//                console.log(e.type );
+//                console.log(e.which );
+//                console.log(e.keyCode);
+//            });
+
+            $(document).on("keyup", function(event) {
+                console.log(event.keyCode);
+            })
+        })
+    </script>
+</head>
+<body>
+<input type="text">
+</body>
+</html>

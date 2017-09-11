@@ -26,7 +26,7 @@
             })
 
             $("button:eq(2)").click(function () {
-                $("div").stop();   //都不写，默认两个都是false;
+//                $("div").stop();   //都不写，默认两个都是false;
 
                 // 第一个参数表示后续动画是否要执行
                 //（true:后续动画不执行  ;false:后续动画会执行）
@@ -47,7 +47,7 @@
 
                 //四种情况：情况4：true,false
                 //（后续动画会执行，立即停止当前动画`）
-//                $("div").stop(false,false);
+                $("div").stop(false,false);
             })
         })
     </script>

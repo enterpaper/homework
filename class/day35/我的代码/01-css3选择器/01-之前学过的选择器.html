@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*
+            之前学过的选择器：
+            div 标签选择器
+            .box 类名选择器
+            #box　id选择器
+            div p 后代选择器
+            div.box 交集选择器
+            div,p,span 并集选择器
+            div>p 子代选择器
+            * : 通配符选择器
+             div+p: 选中div后面相邻的第一个p
+             div~p: 选中的div后面所有的p
+        */
+        /* div后面的第一个p*/
+        div+p{
+            background-color: red;
+        }
+        /* div 后面所有的p*/
+        /*div~p{*/
+            /*background-color: yellow;*/
+        /*}*/
+
+/*        section, nav, article {
+            width: 100px;
+            height: 50px;
+            margin: 10px auto;
+            border: 1px solid maroon;
+            text-align: center;
+            line-height: 50px;
+            color: #01B0E7;
+        }
+        nav+section {
+            background-color: red;
+        }
+        nav~section {
+            background-color: yellow;
+        }*/
+
+    </style>
+</head>
+<body>
+    <p>ppppppppp</p>
+    <div>divvvvvvvvvvvvv</div>
+    <span>span</span>
+    <p>ppppppppp</p>
+    <p>ppppppppp</p>
+    <p>ppppppppp</p>
+    <span>span</span>
+    <p>ppppppppp</p>
+    <p>ppppppppp</p>
+
+<!--    <section>section</section>
+    <nav>nav</nav>
+    <article>article</article>
+    <section>section</section>
+    <section>section</section>
+    <article>article</article>
+    <section>section</section>-->
+</body>
+</html>

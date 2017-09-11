@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var str = '这是测试的{{animate}}';
+		// // var reg = /{{\w+}}/;
+		// var reg = /{{(\w+)}}/;
+		// console.log(reg.exec(str));
+
+		var str = '我是{{leader}}，打{{money}}元';
+		var reg = /{{(\w+)}}/;
+		var result;
+
+		var obj = {
+			leader: '秦始皇',
+			money: '10000'
+		};
+
+		console.log(str);
+		while(result = reg.exec(str)) {
+			var key = result[1];
+			str = str.replace(result[0], obj[key]);
+			console.log(str);
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            /* 透视*/
+            perspective: 1000px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background: green;
+            transition: transform 1s;
+            margin: 200px auto
+        }
+
+        .box:hover{
+            /* translateZ必须配合透视来使用*/
+           transform:translateZ(600px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

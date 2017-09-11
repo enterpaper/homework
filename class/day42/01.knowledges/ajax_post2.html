@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>ajax 发送post</h1>
+	<input type="text"  value="" placeholder="请输入你爱吃的菜" id='foodText'>
+	<input type="button"  value="ajaxPost请求" id='btnAjax'>
+</body>
+</html>
+<script type="text/javascript">
+	document.querySelector("#btnAjax").onclick = function () {
+		var ajax = new XMLHttpRequest();
+
+		// 使用post请求
+		ajax.open('post','ajax_post.php');
+
+		ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+
+		// 发送
+		// ajax.send();
+		ajax.send('name=jack&age=998');
+
+		// 注册事件
+		ajax.onreadystatechange = function () {
+			if (ajax.readyState==4&&ajax.status==200) {
+				console.log(ajax.responseText);
+			}
+		}
+	}
+</script>

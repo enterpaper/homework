@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 100px ;
+            background-color: green;
+            /* 调用*/
+            /* infinite:无限次*/
+            /* animation: 动画名称 持续时间  执行次数  是否反向  运动曲线 延迟执行*/
+            /* animation: move 1s  alternate linear 3 ;*/
+            /*animation: move 2s;*/
+            /*animation: move 500ms 3;*/
+            /*animation: move 500ms infinite;*/
+            /*animation: move 500ms 4 alternate;*/
+            /*animation: move 500ms 4 alternate linear;*/
+            /*animation: move 500ms 4 alternate linear 500ms;*/
+            animation: move 2s;
+        }
+
+        /* 定义动画*/
+        /*@keyframes move {
+            from{
+                transform: translateX(0px);
+            }
+            to{
+                transform: translateX(500px);
+            }
+        }*/
+
+        /*@keyframes move {
+            from{
+                transform: translateX(0px) rotateZ(0deg);
+            }
+            to{
+                transform: translateX(500px) rotateZ(360deg);
+            }
+        }*/
+
+
+        /* 定义动画*/
+        /*@keyframes move {
+            from{
+                transform: translateX(0px);
+            }
+            to{
+                transform: translateX(500px);
+            }
+        }*/
+
+        /*@keyframes move {
+            from{
+                transform: rotateZ(0deg) translateX(0px);
+            }
+            to{
+                transform: rotateZ(-360deg) translateX(300px);
+            }
+        }*/
+
+        /* 定义多组动画*/
+        @keyframes move {
+            0%{
+                transform:translateX(0px) translateY(0px);
+                background-color: green;
+                border-radius: 0px;
+            }
+
+            25%{
+                transform:translateX(500px) translateY(0px);
+            }
+
+            50%{
+                transform:translateX(500px) translateY(300px);
+                border-radius: 50%;
+            }
+
+
+            75%{
+                transform:translateX(0px) translateY(300px);
+            }
+
+            100%{
+                transform:translateX(0px) translateY(0px);
+                background-color: red;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
